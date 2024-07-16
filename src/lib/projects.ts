@@ -18,7 +18,7 @@ export const projects: Project[] = [
 		},
 		stage: ProjectStage.Production,
 		status: ProjectStatus.Active,
-		tags: ["npm", "anchor", "solana", "cli", "react", "nextjs"],c
+		tags: ["npm", "anchor", "solana", "cli", "react", "nextjs"],
 		imageUrl: "",
 	},
 	{
