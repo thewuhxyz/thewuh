@@ -2,6 +2,26 @@ import { Project, ProjectStage, ProjectStatus } from "./types"
 
 export const projects: Project[] = [
 	{
+		id: "create-anchor-dapp",
+		name: "Create Anchor dApp",
+		description:
+			"CLI monorepo template generator for building Solana dApps with the Anchor Framework",
+		favorite: true,
+		links: {
+			github: "https://github.com/thewuhxyz/create-anchor-dapp",
+			additionalLinks: [
+				{
+					link: "https://www.npmjs.com/package/create-anchor-dapp",
+					title: "npm",
+				},
+			],
+		},
+		stage: ProjectStage.Production,
+		status: ProjectStatus.Active,
+		tags: ["npm", "anchor", "solana", "cli", "react", "nextjs"],
+		imageUrl: "",
+	},
+	{
 		id: "valet",
 		name: "Valet",
 		description: "A social login in-built wallet for solana dapps.",
@@ -26,7 +46,7 @@ export const projects: Project[] = [
 		description: "Liquidity Protocol for CLOB DEX.",
 		favorite: true,
 		links: {
-			github: "https://github.com/merstab"
+			github: "https://github.com/merstab",
 		},
 		stage: ProjectStage.Development,
 		status: ProjectStatus.Inactive,
@@ -65,5 +85,4 @@ export const projects: Project[] = [
 		tags: [],
 		imageUrl: "",
 	},
-	
 ]
