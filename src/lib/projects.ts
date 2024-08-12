@@ -3,7 +3,7 @@ import { Project, ProjectStage, ProjectStatus } from "./types"
 export const projects: Project[] = [
 	{
 		id: "create-anchor-dapp",
-		name: "Create Anchor dApp",
+		name: "create-anchor-dapp",
 		description:
 			"CLI monorepo template generator for building Solana dApps with the Anchor Framework",
 		favorite: true,
@@ -19,6 +19,42 @@ export const projects: Project[] = [
 		stage: ProjectStage.Production,
 		status: ProjectStatus.Active,
 		tags: ["npm", "anchor", "solana", "cli", "react", "nextjs"],
+		imageUrl: "",
+	},
+	{
+		id: "wallet-adapter-svelte",
+		name: "Svelte Wallet Adapter",
+		description:
+			"Solana wallet adapter for Svelte. A fork of @svelte-on-solana/wallet-adapter",
+		favorite: true,
+		links: {
+			github: "https://github.com/thewuhxyz/wallet-adapter-svelte",
+			additionalLinks: [
+				{
+					link: "https://www.npmjs.com/package/@thewuh/wallet-adapter-svelte-core",
+					title: "npm:core",
+				},
+				{
+					link: "https://www.npmjs.com/package/@thewuh/wallet-adapter-svelte-ui",
+					title: "npm:ui",
+				},
+				{
+					link: "https://www.npmjs.com/package/@thewuh/wallet-adapter-svelte-anchor",
+					title: "npm:anchor",
+				},
+				{
+					link: "https://www.npmjs.com/package/@thewuh/wallet-standard-wallet-adapter-svelte",
+					title: "npm:standard",
+				},
+				{
+					link: "https://wallet-adapter-svelte.thewuh.xyz",
+					title: "demo",
+				},
+			],
+		},
+		stage: ProjectStage.Production,
+		status: ProjectStatus.Active,
+		tags: ["wallet", "anchor", "solana", "adapter", "svelte", "sveltekit"],
 		imageUrl: "",
 	},
 	{
@@ -85,4 +121,4 @@ export const projects: Project[] = [
 		tags: [],
 		imageUrl: "",
 	},
-]
+];
